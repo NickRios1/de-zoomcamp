@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: crypto-truck-411918
+    schema: ny_taxi
+
+    tables:
+      - name: green_tripdata_partitioned_clustered
+      - name: yellow_tripdata_partitioned_clustered
