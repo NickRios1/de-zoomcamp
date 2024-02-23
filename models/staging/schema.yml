@@ -6,8 +6,9 @@ sources:
     schema: ny_taxi
 
     tables:
-      - name: green_tripdata_partitioned_clustered
-      - name: yellow_tripdata_partitioned_clustered
+      - name: green_tripdata_non_partitioned
+      - name: yellow_tripdata_non_partitioned
+      - name: fhv_tripdata_non_partitioned
       
 models:
     - name: stg_green_tripdata
